@@ -144,6 +144,9 @@ div img{
         margin-top: 2em;
         margin-bottom: 2em;
     }
+    .about-main{
+    display: grid;
+    grid-template-rows: 1fr;
 
 }
 footer p {
