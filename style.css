@@ -67,7 +67,7 @@ div img{
     background-color:rgb(198, 241, 112);
 }
 .promotion{
-    background-image: url('/images/food1.jpg');
+    background-image: url('food1.jpg');
     background-size: 100%;
     border-radius:30px;
     height: 100px;
