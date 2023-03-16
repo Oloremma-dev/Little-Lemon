@@ -113,9 +113,9 @@ div img{
     .menu-gallery{
         display: flex;
         flex-direction: row;
-        flex-basis: 200px;
+        flex-basis: 250px;
         flex-wrap: wrap;
-        gap:1em;
+        gap:2em;
         flex-shrink: 0;
     }
     .menu-gallery div{
@@ -189,17 +189,15 @@ main h1{
 }
 .menu-gallery div{
     display:grid;
-    width: 150px;
+    width: 200px;
 }
 .menu-gallery{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 2em;
     margin-top: 2em;
     margin-bottom: 3em;
-    margin-left:auto;
-    margin-right: auto;
     background-color:rgb(198, 241, 112); ;
 }
 .menu-gallery div button{
