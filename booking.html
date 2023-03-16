@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <a href="index.html">
+        <img src="/images/lemon.jpg" alt="logo">
+        <h1>LITTLE LEMON</h1>
+      </a>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="menu.html"><li>Menu</li></a>
+            <a href="booking.html"><li>Book</li></a>
+            <a href="about.html"><li>About</li></a> 
+            
+        </ul>
+    </nav>
+    <main>
+      <section class="promotion">
+        <h1 class="promotion-text1">30% Off This Weekend</h1>
+        <p class="promotion-text2">Get 30% off on Every Order You Make This Weekend</p>
+      </section> 
+      <h1> Reserve A Table Now</h1>
+      <section class="book-form">
+        <form action="/Booking.html" method="post">
+            <div>
+              <label for="name">Name</label><br>
+              <input type="text" name="name" id="name" placeholder="Name" minlength="8" maxlength="30" required>
+            </div>
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+          <div>
+            <label for="booking-date">Booking Date</label><br>
+            <input type="date" id="booking-date" name="booking-date" required>
+          </div>
+          <div>
+            <label for="booking-people">Number of people</label><br>
+            <input type="range" id="booking-people" name="booking-people" min="1" max="10" value="4" oninput="this.nextElementSibling.value =this.value">
+            <output>4</output>
+          </div>
+          <div>
+            <label for="location">Location</label><br>
+            <input id="booking-location" name="booking-location" list="locations" required>
+            <datalist id="locations">
+              <option value="DownTown"></option>
+              <option value="UpTown"></option>
+            </datalist>
+          </div>
+          <div>
+            <input type="submit" value="Book Now" id="book" >
+          </div>  
+        </form>
+      </section>
+    </main>
+    <footer class="book-footer">
+        <img src="/images/lemon.jpg "alt="logo">
+        <p>copyright 2023 oloremma-dev </p>
+    </footer>
+
+  </body>
+  <script src="index.js"></script>
+</html>
