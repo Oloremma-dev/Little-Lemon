@@ -137,7 +137,7 @@ div img{
         font-size: 30px;
     }
     .promotion{
-        background-image: url('/images/food1.jpg');
+        background-image: url('food1.jpg');
         background-size: 100%;
         border-radius:30px;
         height: 100px;
@@ -249,7 +249,7 @@ form div{
     margin-bottom: 5px;
 }
 .order{
-    background-image: url('/images/snack.jpg') ;
+    background-image: url('snack.jpg') ;
     background-size: 100%;
     height: 500px;
     text-align: center;
