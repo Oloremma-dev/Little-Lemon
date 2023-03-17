@@ -11,6 +11,7 @@ nav{
     margin: 0%;
     margin-bottom: 3.5em;
 }
+
 main{
     border-radius: 20px;
 }
@@ -118,12 +119,23 @@ div img{
         gap:2em;
         flex-shrink: 0;
     }
+    .menu-gallery h2{
+    font-size: 10px;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    p{
+    font-family: 'poppins';
+    font-size: 10px;
+    font-weight: bold;
+}
     .menu-gallery div{
         display: grid;
     }
     p{
         font-family: 'poppins';
-        font-size: 20px;
+        font-size: 10px;
         font-weight: bold;
     }
     .menu-gallery div{
@@ -147,6 +159,13 @@ div img{
     .about-main{
     display: grid;
     grid-template-rows: 1fr;
+    }
+    .time{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: black;
+}
+        
 
 }
 footer p {
