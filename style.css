@@ -1,5 +1,4 @@
 
-}
 nav{
     background-color: #383333;
     display: flex;
@@ -63,9 +62,6 @@ div img{
     max-width: 100%;
     margin-bottom: 1.5em;
 }
-.gallery div {
-    background-color:rgb(198, 241, 112);
-}
 .promotion{
     background-image: url('food1.jpg');
     background-size: 100%;
@@ -91,7 +87,7 @@ div img{
     font-family: sans-serif;
 
 }
-@media (max-width: 750px) {
+@media (max-width: 650px) {
     .gallery{
         grid-template-columns:1fr;
     }
@@ -236,7 +232,6 @@ main h1{
     gap: 1em;
     margin-top: 2em;
     margin-bottom: 3em;
-    background-color:rgb(198, 241, 112); ;
 }
 .menu-gallery div button{
     background-color: rgb(56, 56, 21);
