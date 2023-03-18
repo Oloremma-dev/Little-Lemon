@@ -139,9 +139,6 @@ div img{
     font-size: 10px;
     font-weight: bold;
 }
-    .menu-gallery div{
-        display: grid;
-    }
     p{
         font-family: 'poppins';
         font-size: 10px;
@@ -150,7 +147,8 @@ div img{
     .menu-gallery div{
         display: grid;
         width: 80px;
-        display: flex;
+        margin-right:auto;
+        margin-left:auto;
     }
     .promotion-text1{
         font-size:15px;
