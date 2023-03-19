@@ -327,6 +327,10 @@ form div{
     margin-top: 4px;
     margin-bottom: 4px;
 }
+.contact p, contact h1{
+    margin-top:auto;
+    margin-bottom:auto;
+}
 .about-main{
     display: grid;
     grid-template-rows: 1fr 0fr 0fr;
